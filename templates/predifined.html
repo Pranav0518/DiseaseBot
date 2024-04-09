@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predefined Medication Page</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='medical.css') }}"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/">Symptoms</a></li>
+        <li><a href="/medicine">Simple Medication</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="diseases">
+        <h2>Common Diseases</h2>
+        <ul>
+          <li>
+            <a href="/headache-medicine">
+              <img src="/static/images/headache.jpg" alt="Headache" />
+            </a>
+          </li>
+          <li>
+            <a href="/cold-medicine">
+              <img src="/static/images/cold.jpg" alt="Cold" />
+            </a>
+          </li>
+          <li>
+            <a href="/fever-medicine">
+              <img src="/static/images/fever.jpg" alt="Fever" />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Predefined Medication Page</p>
+    </footer>
+  </body>
+</html>

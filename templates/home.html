@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediCheck: AI-powered Symptom Checker and Diagnosis Tool</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='stylehome.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/">Symptoms</a></li>
+          <li><a href="/medicine">Simple Medication</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>MediCheck: AI-powered Symptom Checker and Diagnosis Tool</h1>
+      <p>
+        MediCheck is a sophisticated web-based application designed to provide
+        users with quick and accurate diagnostic insights based on reported
+        symptoms. Leveraging advanced machine learning techniques, MediCheck
+        assists users in identifying potential health conditions by analyzing
+        their symptoms.
+      </p>
+      <h2>Key Features:</h2>
+      <ul>
+        <li>
+          Symptom Selection: Users can select their symptoms from a
+          comprehensive list provided by the application.
+        </li>
+        <li>
+          Search Functionality: To facilitate ease of use, MediCheck includes a
+          search bar that allows users to quickly find and select specific
+          symptoms.
+        </li>
+        <li>
+          AI Diagnosis: Once the user submits their selected symptoms, MediCheck
+          utilizes an AI-powered decision tree classifier to analyze the
+          symptoms and predict potential health conditions.
+        </li>
+        <li>
+          Confidence Level: In addition to providing users with a predicted
+          health condition, MediCheck also calculates a confidence level for the
+          diagnosis.
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>&copy; 2023 MediCheck. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
